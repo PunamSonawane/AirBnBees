@@ -19,9 +19,6 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/dash")
-def dash():
-    return render_template("dashboard.html")
 
 @app.route("/model")
 def model():
